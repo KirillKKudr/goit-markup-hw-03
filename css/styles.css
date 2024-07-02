@@ -4,13 +4,71 @@ body{
     background-color: #fff;
 }
 
+
+
+/*reset*/
+
+
+
 ul , ol{
     list-style-type:none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
    text-decoration: none;
 }
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+
+
+/*common*/
+
+
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+/*header*/
+
+
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    gap: 40px;
+}
+
+.nav-address-list{
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    gap: 40px;
+}
+
 
 .nav-logo{
     font-family: "Raleway", sans-serif;
@@ -20,6 +78,8 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
+    padding-right: 74px;
 }
 
 .nav-logo-item{
@@ -27,6 +87,8 @@ a{
 }
 
 .nav-list-link{
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -54,7 +116,17 @@ color: #404bbf;
 
 .nav-address{
     font-style: normal;
+    margin-left: auto;
 }
+
+
+
+
+
+/*section-one*/
+
+
+
 
 .section-one{
     background: #2e2f42;
@@ -67,6 +139,8 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 
 .section-one-button{
@@ -77,12 +151,23 @@ color: #404bbf;
     color: #fff; 
     background: #4d5ae5;
     cursor: pointer;
+    margin-bottom: 188px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
 }
 
 .section-one-button:hover,
 .section-one-button:focus{
   background-color: #404bbf;
 }
+
+
+
+/*section-two*/
+
+
 
 .section-two-list{
     font-weight: 500;
@@ -99,6 +184,10 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
+
+/*section-three*/
 
 .section-three{
     background: #f4f4fd;
@@ -137,6 +226,15 @@ color: #404bbf;
     color: #434455;
 }
 
+
+
+
+
+/*section-four*/
+
+
+
+
 .section-four-content{
     font-weight: 700;
     font-size: 36px;
@@ -162,6 +260,12 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455; 
 }
+
+
+
+/*fotter*/
+
+
 
 .footer{
     background-color: #2e2f42;
