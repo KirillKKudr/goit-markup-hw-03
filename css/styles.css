@@ -146,6 +146,7 @@ color: #404bbf;
 }
 
 .section-one-button{
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -172,8 +173,14 @@ color: #404bbf;
 /*section-two*/
 
 
-
 .section-two-list{
+    display: flex;
+    gap: 24px;
+}
+
+
+.section-two-items{
+    padding-top: 120px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -181,12 +188,19 @@ color: #404bbf;
     color: #2e2f42;
 }
 
+.section-two-list-items{
+    width:calc(100%-72)/4;
+}
+
 .section-two-text{
+    padding-top: 8px;
+    padding-bottom: 120px; ;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    max-width: 264px;
 }
 
 
@@ -197,12 +211,27 @@ color: #404bbf;
     background: #f4f4fd;
 }
 
+.section-three-list{
+    display: flex;
+    gap: 24px;
+    width:calc(100%-72)/4;
+    padding-bottom: 120px;
+}
+
 .section-three-list-item{
     background-color:#FFFFFF;
+    border-radius: 0 0 4px 4px; ;
+}
+
+.section-three-photo-text{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 
 .section-three-content{
+    padding-top: 120px;
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -213,6 +242,7 @@ color: #404bbf;
 }
 
 .section-three-names{
+    padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -237,9 +267,15 @@ color: #404bbf;
 /*section-four*/
 
 
-
+.section-four-list{
+    display:flex;
+    row-gap: 24px;
+    column-gap: 48px;
+}
 
 .section-four-content{
+    padding-top: 120px;
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
