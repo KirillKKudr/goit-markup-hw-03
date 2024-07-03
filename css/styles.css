@@ -140,7 +140,6 @@ color: #404bbf;
     text-align: center;
     color: #fff;
     padding-top: 188px;
-    padding-bottom: 48px;
     margin-right: auto;
     margin-left: auto;
     max-width: 496px;
@@ -159,6 +158,8 @@ color: #404bbf;
     width: 169px;
     margin-top: 48px;
     margin-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-one-button:hover,
