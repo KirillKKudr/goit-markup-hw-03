@@ -129,6 +129,7 @@ color: #404bbf;
 
 .section-one{
     background: #2e2f42;
+    height: 600px;
 }
 
 .section-one-text{
@@ -140,6 +141,9 @@ color: #404bbf;
     color: #fff;
     padding-top: 188px;
     padding-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 496px;
 }
 
 .section-one-button{
@@ -150,11 +154,11 @@ color: #404bbf;
     color: #fff; 
     background: #4d5ae5;
     cursor: pointer;
-    margin-bottom: 188px;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
-    height: 56px;
+    margin-top: 48px;
+    margin-bottom: 188px;
 }
 
 .section-one-button:hover,
