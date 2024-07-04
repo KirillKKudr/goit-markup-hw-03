@@ -275,15 +275,22 @@ color: #404bbf;
 /*section-four*/
 
 
+.section-four-list-item{
+    border: 1px solid #e7e9fc;
+    width: 360px;
+}
+
+
 .section-four-list{
     display:flex;
-    row-gap: 24px;
-    column-gap: 48px;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+    padding-top: 120px;
 }
 
 .section-four-content{
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -299,6 +306,9 @@ color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
 }
 
 .section-four-text{
@@ -307,6 +317,8 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455; 
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
 
 
