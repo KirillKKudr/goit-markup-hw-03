@@ -24,6 +24,9 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
 
+img{
+    display: block;
+}
 
 
 /*common*/
@@ -156,11 +159,13 @@ color: #404bbf;
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
     margin-top: 48px;
     margin-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .section-one-button:hover,
