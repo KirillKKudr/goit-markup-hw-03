@@ -228,12 +228,12 @@ color: #404bbf;
 
 .section-three{
     background: #f4f4fd;
+    padding: 120px 0;
 }
 
 .section-three-list{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .section-three-list-item{
@@ -249,7 +249,6 @@ color: #404bbf;
 
 
 .section-three-content{
-    padding-top: 120px;
     padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
